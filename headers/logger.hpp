@@ -14,8 +14,10 @@ namespace services {
 
     private:
         std::string prefix;
-        std::string getFormattedMessage(enums::Level severity,
-                                        const std::string message);
+        std::string getFormattedMessage(
+            enums::Level severity,
+            const std::string message
+        );
         std::string getTime();
         std::string getLevel(enums::Level severity);
         std::string getPrefix();
